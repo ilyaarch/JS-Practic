@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: ease-in-out 0.2s;
+}
+
+#box_1 {
+    left: 35%;
+    background-color: black;
+}
+
+#box_2 {
+    left: 50%;
+    background-color: rgb(60, 60, 60);
+}
+
+#box_3 {
+    left: 65%;
+    background-color: rgb(119, 119, 119);
+}
+
+#box_1:hover {
+    background-color: white;
+    transition: ease-in-out 0.2s;
+}
+
+#box_2:hover {
+    background-color: white;
+    transition: ease-in-out 0.2s;
+}
+
+#box_3:hover {
+    background-color: white;
+    transition: ease-in-out 0.2s;
+}
+
