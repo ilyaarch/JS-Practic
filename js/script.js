@@ -32,7 +32,7 @@ console.log(++incr, --decr);
 
 console.log(5%2);
 
-console.log((2 + 2) * 2 === 8);
+console.log(2 + 2 * 2 != 8);
 
 const isChecked = false,
       isClosed = true;
